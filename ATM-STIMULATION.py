@@ -21,7 +21,7 @@ if(task>=1) and (task<=3):
         deposit_amount = int(input('Please enter your depsoit amount '))
         if deposit_amount > 0:
             available_amount += deposit_amount
-            print('Your amount successfully deposited')
+            print('Your have successfully deposited your amount')
             check_message = f"Your available balance is {available_amount}"
             print(check_message)
             
@@ -37,6 +37,6 @@ if(task>=1) and (task<=3):
             check_message = f"Your available balance is {available_amount}"
             print(check_message)
         else:
-            print('Gareeb hai,paisa nahi hai or withdraw karne chale hai')        
+            print('Insufficient balance')        
 else:
     print('Please corret option')
